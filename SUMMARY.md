@@ -10,4 +10,6 @@
   * [主要性质](shu/er-cha-shu/zhu-yao-xing-zhi.md)
   * [存储结构](shu/er-cha-shu/cun-chu-jie-gou.md)
   * [遍历算法](shu/er-cha-shu/bian-li-suan-fa.md)
+  * [常见算法](shu/er-cha-shu/chang-jian-suan-fa/README.md)
+    * [求树的深度](shu/er-cha-shu/chang-jian-suan-fa/qiu-shu-de-shen-du.md)
 
