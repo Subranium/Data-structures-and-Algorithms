@@ -10,7 +10,7 @@
 
 {% tabs %}
 {% tab title="递归方式" %}
-```text
+```go
 func Preorder(node *TreeNode){
 	if node != nil{
 		fmt.Printf("%s\n", node.Val)
@@ -38,7 +38,7 @@ func Preorder(node *TreeNode){
 
 {% tabs %}
 {% tab title="递归方式" %}
-```text
+```go
 func InShowTree(node *model.Node){
 	if node != nil{
 		PreShowTree(node.Left)
@@ -66,7 +66,7 @@ func InShowTree(node *model.Node){
 
 {% tabs %}
 {% tab title="递归方式" %}
-```text
+```go
 func PostShowTree(node *model.Node){
 	if node != nil{
 		PreShowTree(node.Left)
@@ -85,4 +85,69 @@ func PostShowTree(node *model.Node){
 {% endtabs %}
 
 ## 层次遍历
+
+
+
+{% tabs %}
+{% tab title="递归方式" %}
+```go
+var leveles = make([][]int, 0)
+
+func levelOrder1(root *TreeNode) [][]int {
+	if root == nil{
+		return leveles
+	}
+	helper(root, 0)
+	return leveles
+}
+
+func helper(node *TreeNode, level int){
+	if len(leveles) == level{
+		leveles = append(leveles, make([]int, 0))
+	}
+
+	leveles[level] = append(leveles[level], node.Val)
+
+	if node.Left != nil{
+		helper(node.Left, level + 1)
+	}
+	if node.Right != nil{
+		helper(node.Right, level + 1)
+	}
+}
+```
+{% endtab %}
+
+{% tab title="非递归方式" %}
+```go
+func levelOrder(root *TreeNode) [][]int {
+	leveles = make([][]int , 0)
+
+	if root == nil{
+		return leveles
+	}
+	queue := make([]*TreeNode, 0)
+	queue = append(queue, root)
+	level := 0
+	for len(queue) != 0{
+		leveles = append(leveles, make([]int ,0))
+		level_length := len(queue)
+		for i := 0; i < level_length; i++{
+			node := queue[0]
+			queue = queue[1:]
+			leveles[level] = append(leveles[level], node.Val)
+			if node.Left != nil{
+				queue = append(queue, node.Left)
+			}
+			if node.Right != nil{
+				queue = append(queue, node.Right)
+			}
+		}
+		level++
+	}
+	return leveles
+}
+```
+{% endtab %}
+{% endtabs %}
 
