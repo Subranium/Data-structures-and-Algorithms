@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Data structures and Algorithms](README.md)
+* [算法的时间复杂度与空间复杂度](suan-fa-de-shi-jian-fu-za-du-yu-kong-jian-fu-za-du.md)
 
 ## 线性表
 
@@ -9,6 +10,9 @@
 ## 栈和队列
 
 * [基本概念](zhan-he-dui-lie/ji-ben-gai-nian.md)
+* [栈](zhan-he-dui-lie/zhan/README.md)
+  * [顺序栈](zhan-he-dui-lie/zhan/shun-xu-zhan.md)
+* [Untitled](zhan-he-dui-lie/untitled.md)
 
 ## 串
 
@@ -51,4 +55,5 @@
 ## 查找
 
 * [基本概念](cha-zhao/ji-ben-gai-nian.md)
+* [参考文献](can-kao-wen-xian.md)
 

@@ -12,8 +12,8 @@
 {% tab title="递归方式" %}
 ```go
 func Preorder(node *TreeNode){
-	if node != nil{
-		fmt.Printf("%s\n", node.Val)
+	if *node != (tree.BTNode{}) && node != nil{
+		fmt.Printf("%s", node.Val)
 		PreShowTree(node.Left)
 		PreShowTree(node.Right)
 	}
@@ -23,7 +23,27 @@ func Preorder(node *TreeNode){
 
 {% tab title="非递归方式" %}
 ```
+func PreShow(node *tree.BTNode){
+	if *node != (tree.BTNode{}) && node != nil{
+		stack := &sequential_stack.Stack{}
+		stack.InitStack()
 
+		stack.Push(node)
+		for !stack.IsEmpty(){
+			temp, err := stack.Pop()
+			btNode := temp.(*tree.BTNode)
+			if err == nil{
+				fmt.Println(btNode.Val)
+				if *btNode.Left != (tree.BTNode{}) && btNode.Left != nil{
+					stack.Push(btNode.Left)
+				}
+				if *btNode.Right != (tree.BTNode{}) && btNode.Right != nil{
+					stack.Push(btNode.Right)
+				}
+			}
+		}
+	}
+}
 ```
 {% endtab %}
 {% endtabs %}
@@ -40,9 +60,9 @@ func Preorder(node *TreeNode){
 {% tab title="递归方式" %}
 ```go
 func InShowTree(node *model.Node){
-	if node != nil{
+	if *node != (tree.BTNode{}) && node != nil{
 		PreShowTree(node.Left)
-		fmt.Printf("%s %d\n",node.Val, len(node.Val))
+		fmt.Printf("%s", node.Val)
 		PreShowTree(node.Right)
 	}
 }
@@ -68,10 +88,10 @@ func InShowTree(node *model.Node){
 {% tab title="递归方式" %}
 ```go
 func PostShowTree(node *model.Node){
-	if node != nil{
+	if *node != (tree.BTNode{}) && node != nil{
 		PreShowTree(node.Left)
 		PreShowTree(node.Right)
-		fmt.Printf("%s %d\n",node.Val, len(node.Val))
+		fmt.Printf("%s", node.Val)
 	}
 }
 ```
