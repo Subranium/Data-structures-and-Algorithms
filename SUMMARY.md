@@ -55,5 +55,14 @@
 ## 查找
 
 * [基本概念](cha-zhao/ji-ben-gai-nian.md)
+
+## 算法
+
+* [并查集](suan-fa/bing-cha-ji/README.md)
+  * [quick-find](suan-fa/bing-cha-ji/quick-find.md)
+  * [quick-union](suan-fa/bing-cha-ji/quick-union.md)
+  * [加权quick-union](suan-fa/bing-cha-ji/jia-quan-quickunion.md)
+  * [路径压缩的quick-union](suan-fa/bing-cha-ji/lu-jing-ya-suo-de-quickunion.md)
+* [Untitled](suan-fa/untitled.md)
 * [参考文献](can-kao-wen-xian.md)
 
