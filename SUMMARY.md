@@ -33,6 +33,10 @@
   * [线索二叉树](shu/er-cha-shu/xian-suo-er-cha-shu.md)
   * [常见算法](shu/er-cha-shu/chang-jian-suan-fa/README.md)
     * [求树的深度](shu/er-cha-shu/chang-jian-suan-fa/qiu-shu-de-shen-du.md)
+    * [二叉树的镜像](shu/er-cha-shu/chang-jian-suan-fa/er-cha-shu-de-jing-xiang.md)
+    * [对称的二叉树](shu/er-cha-shu/chang-jian-suan-fa/dui-cheng-de-er-cha-shu.md)
+    * [从上倒下打印二叉树/层次遍历](shu/er-cha-shu/chang-jian-suan-fa/cong-shang-dao-xia-da-yin-er-cha-shu-ceng-ci-bian-li.md)
+    * [重建二叉树](shu/er-cha-shu/chang-jian-suan-fa/zhong-jian-er-cha-shu.md)
 * [树与森林](shu/shu-yu-sen-lin/README.md)
   * [树转换为二叉树](shu/shu-yu-sen-lin/shu-zhuan-huan-wei-er-cha-shu.md)
   * [二叉树转换为树](shu/shu-yu-sen-lin/er-cha-shu-zhuan-huan-wei-shu.md)
@@ -41,7 +45,9 @@
   * [树的遍历](shu/shu-yu-sen-lin/shu-de-bian-li.md)
   * [森林的遍历](shu/shu-yu-sen-lin/sen-lin-de-bian-li.md)
 * [二叉排序树](shu/er-cha-pai-xu-shu.md)
-* [平衡二叉树](shu/ping-heng-er-cha-shu.md)
+* [平衡二叉树](shu/ping-heng-er-cha-shu/README.md)
+  * [常见算法](shu/ping-heng-er-cha-shu/chang-jian-suan-fa/README.md)
+    * [平衡二叉树](shu/ping-heng-er-cha-shu/chang-jian-suan-fa/ping-heng-er-cha-shu.md)
 * [赫夫曼树与赫夫曼编码](shu/he-fu-man-shu-yu-he-fu-man-bian-ma.md)
 
 ## 图
