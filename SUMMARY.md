@@ -35,6 +35,7 @@
     * [求树的深度](shu/er-cha-shu/chang-jian-suan-fa/qiu-shu-de-shen-du.md)
     * [二叉树的镜像](shu/er-cha-shu/chang-jian-suan-fa/er-cha-shu-de-jing-xiang.md)
     * [对称的二叉树](shu/er-cha-shu/chang-jian-suan-fa/dui-cheng-de-er-cha-shu.md)
+    * [二叉搜索树的第k大节点](shu/er-cha-shu/chang-jian-suan-fa/er-cha-sou-suo-shu-de-dikda-jie-dian.md)
     * [从上倒下打印二叉树/层次遍历](shu/er-cha-shu/chang-jian-suan-fa/cong-shang-dao-xia-da-yin-er-cha-shu-ceng-ci-bian-li.md)
     * [重建二叉树](shu/er-cha-shu/chang-jian-suan-fa/zhong-jian-er-cha-shu.md)
 * [树与森林](shu/shu-yu-sen-lin/README.md)
