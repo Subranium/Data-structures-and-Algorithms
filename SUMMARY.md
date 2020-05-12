@@ -9,10 +9,14 @@
 
 ## 栈和队列
 
-* [基本概念](zhan-he-dui-lie/ji-ben-gai-nian.md)
 * [栈](zhan-he-dui-lie/zhan/README.md)
   * [顺序栈](zhan-he-dui-lie/zhan/shun-xu-zhan.md)
-* [Untitled](zhan-he-dui-lie/untitled.md)
+  * [链栈](zhan-he-dui-lie/zhan/lian-zhan.md)
+* [队列](zhan-he-dui-lie/untitled/README.md)
+  * [顺序队](zhan-he-dui-lie/untitled/shun-xu-dui.md)
+  * [链队](zhan-he-dui-lie/untitled/lian-dui.md)
+* [Untitled](zhan-he-dui-lie/untitled-1.md)
+* [基本概念](zhan-he-dui-lie/ji-ben-gai-nian.md)
 
 ## 串
 
