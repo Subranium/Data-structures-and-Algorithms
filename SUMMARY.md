@@ -20,7 +20,7 @@
 
 ## 串
 
-* [基本概念](chuan/ji-ben-gai-nian.md)
+* [串基本概念](chuan/ji-ben-gai-nian.md)
 
 ## 数组、矩阵与广义表
 

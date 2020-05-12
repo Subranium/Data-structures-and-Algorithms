@@ -2,6 +2,19 @@
 
 ![](.gitbook/assets/image%20%2817%29.png)
 
+## 内容
+
+* [线性表](xian-xing-biao/ji-ben-gai-nian.md)
+* [栈和队列](zhan-he-dui-lie/zhan/)
+* [串](zhan-he-dui-lie/ji-ben-gai-nian.md)
+* [数组、矩阵与广义表](shu-zu-ju-zhen-yu-guang-yi-biao/ji-ben-gai-nian.md)
+* [树](shu/ji-ben-gai-nian.md)
+* [图](tu/ji-ben-gai-nian.md)
+* [排序](pai-xu/ji-ben-gai-nian.md)
+* [查找](cha-zhao/ji-ben-gai-nian.md)
+* 算法
+  * [并查集](suan-fa/bing-cha-ji/)
+* 
 ## 数据结构
 
 是指相互之间存在一种或多种特定关系的数据元素的集合用计算机存储、组织数据的方式。数据结构分别为逻辑结构、（存储）物理结构和数据的运算三个部分。
